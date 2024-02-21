@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		41C3B8EF2B85BA790029C014 /* BoxingTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3B8EE2B85BA790029C014 /* BoxingTimerApp.swift */; };
-		41C3B8F12B85BA790029C014 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3B8F02B85BA790029C014 /* ContentView.swift */; };
+		41C3B8F12B85BA790029C014 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3B8F02B85BA790029C014 /* TimerView.swift */; };
 		41C3B8F32B85BA7E0029C014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C3B8F22B85BA7E0029C014 /* Assets.xcassets */; };
 		41C3B8F62B85BA7E0029C014 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C3B8F52B85BA7E0029C014 /* Preview Assets.xcassets */; };
+		41C3B8FD2B85F8B60029C014 /* BoxingTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3B8FC2B85F8B60029C014 /* BoxingTimerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41C3B8EB2B85BA790029C014 /* BoxingTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxingTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C3B8EE2B85BA790029C014 /* BoxingTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxingTimerApp.swift; sourceTree = "<group>"; };
-		41C3B8F02B85BA790029C014 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41C3B8F02B85BA790029C014 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		41C3B8F22B85BA7E0029C014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C3B8F52B85BA7E0029C014 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41C3B8FC2B85F8B60029C014 /* BoxingTimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxingTimerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				41C3B8EE2B85BA790029C014 /* BoxingTimerApp.swift */,
-				41C3B8F02B85BA790029C014 /* ContentView.swift */,
+				41C3B8F02B85BA790029C014 /* TimerView.swift */,
+				41C3B8FC2B85F8B60029C014 /* BoxingTimerViewModel.swift */,
 				41C3B8F22B85BA7E0029C014 /* Assets.xcassets */,
 				41C3B8F42B85BA7E0029C014 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41C3B8F12B85BA790029C014 /* ContentView.swift in Sources */,
+				41C3B8FD2B85F8B60029C014 /* BoxingTimerViewModel.swift in Sources */,
+				41C3B8F12B85BA790029C014 /* TimerView.swift in Sources */,
 				41C3B8EF2B85BA790029C014 /* BoxingTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

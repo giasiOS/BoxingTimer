@@ -63,9 +63,6 @@
 			children = (
 				41C3B8EE2B85BA790029C014 /* BoxingTimerApp.swift */,
 				41C3B8FE2B85FCAE0029C014 /* Core */,
-				41C3B8F02B85BA790029C014 /* TimerView.swift */,
-				41C3B8FC2B85F8B60029C014 /* BoxingTimerViewModel.swift */,
-				41C3B9062B8602150029C014 /* SettingsView.swift */,
 				41C3B8F22B85BA7E0029C014 /* Assets.xcassets */,
 				41C3B8F42B85BA7E0029C014 /* Preview Content */,
 			);
@@ -84,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				41C3B8FF2B85FCC10029C014 /* Componets */,
+				41C3B9082B8604CC0029C014 /* Home */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -96,6 +94,32 @@
 				41C3B9042B86009B0029C014 /* ClockView.swift */,
 			);
 			path = Componets;
+			sourceTree = "<group>";
+		};
+		41C3B9082B8604CC0029C014 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				41C3B90A2B8605040029C014 /* ViewModel */,
+				41C3B9092B8604FA0029C014 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		41C3B9092B8604FA0029C014 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41C3B8F02B85BA790029C014 /* TimerView.swift */,
+				41C3B9062B8602150029C014 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41C3B90A2B8605040029C014 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				41C3B8FC2B85F8B60029C014 /* BoxingTimerViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

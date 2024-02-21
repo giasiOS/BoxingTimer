@@ -13,7 +13,7 @@ enum IntervalType {
     case rest
 }
 
-final class TimerViewModel: ObservableObject {
+final class BoxingTimerViewModel: ObservableObject {
     // MARK: Timer properties
     @Published var isDark:Bool = false
     @Published var showSettings:Bool = false

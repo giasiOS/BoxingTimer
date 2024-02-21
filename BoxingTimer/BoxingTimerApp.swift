@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct BoxingTimerApp: App {
+    @StateObject private var vm = BoxingTimerViewModel()
     var body: some Scene {
         WindowGroup {
             TimerView()
+                .environmentObject(vm)
         }
     }
 }

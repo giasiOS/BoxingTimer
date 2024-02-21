@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TimerView: View {
     
-    @EnvironmentObject private var vm:TimerViewModel
+    @EnvironmentObject private var vm:BoxingTimerViewModel
     @State private var animated:Bool = false
     var body: some View {
         VStack {
@@ -24,7 +24,7 @@ struct TimerView: View {
 
 #Preview {
     TimerView()
-        .environmentObject(TimerViewModel())
+        .environmentObject(BoxingTimerViewModel())
 }
 
 

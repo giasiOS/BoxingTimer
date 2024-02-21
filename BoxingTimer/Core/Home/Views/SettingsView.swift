@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     
-    @EnvironmentObject var vm:TimerViewModel
+    @EnvironmentObject var vm:BoxingTimerViewModel
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
@@ -66,5 +66,5 @@ struct SettingsView: View {
 
 #Preview {
     SettingsView()
-        .environmentObject(TimerViewModel())
+        .environmentObject(BoxingTimerViewModel())
 }

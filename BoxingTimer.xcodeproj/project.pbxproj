@@ -15,6 +15,7 @@
 		41C3B9012B85FCFB0029C014 /* CircleProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3B9002B85FCFB0029C014 /* CircleProgressBarView.swift */; };
 		41C3B9032B85FE840029C014 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3B9022B85FE840029C014 /* CircleButtonView.swift */; };
 		41C3B9052B86009B0029C014 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3B9042B86009B0029C014 /* ClockView.swift */; };
+		41C3B9072B8602150029C014 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3B9062B8602150029C014 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		41C3B9002B85FCFB0029C014 /* CircleProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBarView.swift; sourceTree = "<group>"; };
 		41C3B9022B85FE840029C014 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		41C3B9042B86009B0029C014 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		41C3B9062B8602150029C014 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				41C3B8FE2B85FCAE0029C014 /* Core */,
 				41C3B8F02B85BA790029C014 /* TimerView.swift */,
 				41C3B8FC2B85F8B60029C014 /* BoxingTimerViewModel.swift */,
+				41C3B9062B8602150029C014 /* SettingsView.swift */,
 				41C3B8F22B85BA7E0029C014 /* Assets.xcassets */,
 				41C3B8F42B85BA7E0029C014 /* Preview Content */,
 			);
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C3B9072B8602150029C014 /* SettingsView.swift in Sources */,
 				41C3B8FD2B85F8B60029C014 /* BoxingTimerViewModel.swift in Sources */,
 				41C3B9052B86009B0029C014 /* ClockView.swift in Sources */,
 				41C3B9012B85FCFB0029C014 /* CircleProgressBarView.swift in Sources */,

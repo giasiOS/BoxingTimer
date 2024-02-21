@@ -11,7 +11,13 @@ struct CircleButtonView: View {
     @State private var animate:Bool = false
     var style:ButtonStyle
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+       startButtonStyle
+            .onAppear {
+                withAnimation(.bouncy(duration: 2).repeatForever()) {
+                    animate.toggle()
+                }
+            }
     }
 }
 

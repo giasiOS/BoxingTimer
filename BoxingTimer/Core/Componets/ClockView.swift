@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct ClockView: View {
+    
+    let format: String
+    @Binding var animated:Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(format)
+            .font(.system(size: 128, weight: .thin, design: .rounded))
+            .multilineTextAlignment(.center)
+            .foregroundStyle(.primary)
+            .scaleEffect(animated ? 1.08 : 1)
+            .frame(maxWidth: .infinity)
+            .frame(height: 105)
     }
 }
 
 #Preview {
-    ClockView()
+    ClockView(format: "00:00", animated: .constant(false))
 }
